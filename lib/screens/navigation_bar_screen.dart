@@ -58,38 +58,3 @@ class _NavigationBarState extends State<NavigationBarScreen> {
     );
   }
 }
-// BottomNavigationBar(
-//       backgroundColor: Theme.of(context).primaryColor,
-//       items: [
-//         BottomNavigationBarItem(
-//           icon: Icon(
-//             Icons.account_balance_wallet,
-//             color: index == 0 ? selected : notSelected,
-//           ),
-//           title: Text('*'),
-//         ),
-//         BottomNavigationBarItem(
-//           icon: Icon(
-//             Icons.repeat,
-//             color: index == 1 ? selected : notSelected,
-//           ),
-//           title: Text('*'),
-//         ),
-//         BottomNavigationBarItem(
-//           icon: Icon(
-//             Icons.person,
-//             color: index == 2 ? selected : notSelected,
-//           ),
-//           title: Text('*'),
-//         ),
-//       ],
-//       currentIndex: index,
-//       onTap: (value) {
-//         index = value;
-//         if(value == 0){
-//           Navigator.of(context).pop();
-//         }
-//         else
-//         selectProfile(context);
-//       },
-//     );

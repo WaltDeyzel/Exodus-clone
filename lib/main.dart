@@ -1,9 +1,8 @@
+import 'package:flutter/material.dart';
 import './screens/navigation_bar_screen.dart';
 import './screens/exchange_screen.dart';
-
-import 'package:flutter/material.dart';
-
 import './screens/profile_wallets_screen.dart';
+import './screens/wallet_info_screen.dart';
 
 
 void main() => runApp(MyApp());
@@ -38,6 +37,7 @@ class MyApp extends StatelessWidget {
         '/' : (ctx)=> NavigationBarScreen(),
         ExchangeScreen.routeName: (ctx) => ExchangeScreen(),
         ProfileWalletsScreen.routeName: (ctx) => ProfileWalletsScreen(),
+        WalletInfoScreen.routeName: (ctx)=> WalletInfoScreen(),
         },
     );
   }

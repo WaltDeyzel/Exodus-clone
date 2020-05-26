@@ -1,10 +1,18 @@
 import 'package:flutter/material.dart';
 import '../data.dart';
+import '../crypto.dart';
+import '../screens/wallet_info_screen.dart';
+
 
 class WalletList extends StatelessWidget {
   final activeWallets = wallets.where((element) {
     return element.active == true;
   }).toList();
+
+  void selectedWalletInfoPage(Crypto wallet, BuildContext context){
+    print('works');
+    Navigator.of(context).pushNamed(WalletInfoScreen.routeName, arguments: wallet);
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -17,7 +25,7 @@ class WalletList extends StatelessWidget {
               children: <Widget>[
                 ...activeWallets.map((element) {
                   return InkWell(
-                    onTap: null,
+                    onTap: (){selectedWalletInfoPage(element, context);},
                     splashColor: Colors.blue,
                     borderRadius: BorderRadius.circular(15),
                     child: Card(

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Sicilian Cipher\\FlutProjects\\CryptoTracker\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+            "outputFile": "C:\\Users\\Sicilian Cipher\\FlutProjects\\exodus\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Sicilian Cipher\\FlutProjects\\CryptoTracker\\android\\app\\src\\main\\res\\values\\styles.xml",
+                    "source": "C:\\Users\\Sicilian Cipher\\FlutProjects\\exodus\\android\\app\\src\\main\\res\\values\\styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
